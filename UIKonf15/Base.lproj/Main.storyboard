@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14A389" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="SjM-wI-kN1">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--Item 1-->
+        <scene sceneID="NT0-4O-7Ry">
+            <objects>
+                <viewController id="VJD-xU-73a" customClass="GameViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="4MS-db-gL1"/>
+                        <viewControllerLayoutGuide type="bottom" id="hWX-F7-Rd8"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="HH0-8r-hfd">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xgx-k4-BIA" customClass="NBPuzzleGameGridView">
+                                <rect key="frame" x="196" y="67" width="633" height="633"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="633" id="3wg-jZ-pz7"/>
+                                    <constraint firstAttribute="width" constant="633" id="D8u-k1-Crm"/>
+                                    <constraint firstAttribute="width" secondItem="Xgx-k4-BIA" secondAttribute="height" multiplier="1:1" id="x8c-fu-yYv"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7me-ds-giI">
+                                <rect key="frame" x="497" y="20" width="30" height="30"/>
+                                <state key="normal" title="2">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="levelButtonPressed:" destination="VJD-xU-73a" eventType="touchUpInside" id="XOG-Vk-Clt"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mtp-1d-3Io">
+                                <rect key="frame" x="551" y="20" width="30" height="30"/>
+                                <state key="normal" title="3">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="levelButtonPressed:" destination="VJD-xU-73a" eventType="touchUpInside" id="IlZ-JD-kIC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0NY-oo-yeu">
+                                <rect key="frame" x="443" y="20" width="30" height="30"/>
+                                <state key="normal" title="1">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="levelButtonPressed:" destination="VJD-xU-73a" eventType="touchUpInside" id="76E-NF-hfd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xgX-L0-9w6">
+                                <rect key="frame" x="755" y="20" width="74" height="30"/>
+                                <state key="normal" title="New game">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="newGameButtonPressed" destination="VJD-xU-73a" eventType="touchUpInside" id="vPD-pq-LFK"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5zO-Nx-2x2">
+                                <rect key="frame" x="196" y="20" width="68" height="30"/>
+                                <state key="normal" title="Next level">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="nextLevelButtonPressed" destination="VJD-xU-73a" eventType="touchUpInside" id="OLY-Df-Xw2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="arh-M1-jAg">
+                                <rect key="frame" x="20" y="20" width="43" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="43" id="Gpp-Bb-dfb"/>
+                                    <constraint firstAttribute="height" constant="50" id="bed-mO-zUx"/>
+                                </constraints>
+                                <state key="normal" image="Graphic_PhoneShake.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="helpShakeButtonPressed" destination="VJD-xU-73a" eventType="touchUpInside" id="yeo-8Y-j0G"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.93333333330000001" green="0.91372549020000005" blue="0.91372549020000005" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="Xgx-k4-BIA" secondAttribute="centerX" constant="-0.5" id="5eO-JX-Gxc"/>
+                            <constraint firstItem="xgX-L0-9w6" firstAttribute="leading" secondItem="7me-ds-giI" secondAttribute="trailing" constant="228" id="6Mu-3l-Ynh"/>
+                            <constraint firstAttribute="centerY" secondItem="7me-ds-giI" secondAttribute="centerY" constant="349" id="9Qr-Hw-tlR"/>
+                            <constraint firstItem="Xgx-k4-BIA" firstAttribute="top" secondItem="7me-ds-giI" secondAttribute="bottom" constant="17" id="F1F-7s-A9W"/>
+                            <constraint firstItem="Xgx-k4-BIA" firstAttribute="top" secondItem="xgX-L0-9w6" secondAttribute="bottom" constant="17" id="GSE-vb-gaP"/>
+                            <constraint firstItem="7me-ds-giI" firstAttribute="leading" secondItem="0NY-oo-yeu" secondAttribute="trailing" constant="24" id="Ien-dC-WuM"/>
+                            <constraint firstItem="arh-M1-jAg" firstAttribute="leading" secondItem="HH0-8r-hfd" secondAttribute="leading" constant="20" id="Lz6-cJ-Xyc"/>
+                            <constraint firstItem="7me-ds-giI" firstAttribute="baseline" secondItem="Mtp-1d-3Io" secondAttribute="baseline" id="MOz-AK-Rbu"/>
+                            <constraint firstItem="arh-M1-jAg" firstAttribute="top" secondItem="4MS-db-gL1" secondAttribute="bottom" id="c56-em-KUM"/>
+                            <constraint firstItem="Xgx-k4-BIA" firstAttribute="top" secondItem="5zO-Nx-2x2" secondAttribute="bottom" constant="17" id="ieT-Ji-HIA"/>
+                            <constraint firstItem="Mtp-1d-3Io" firstAttribute="leading" secondItem="7me-ds-giI" secondAttribute="trailing" constant="24" id="ktI-Iu-sdZ"/>
+                            <constraint firstItem="7me-ds-giI" firstAttribute="leading" secondItem="5zO-Nx-2x2" secondAttribute="trailing" constant="233" id="mYc-X4-Iwu"/>
+                            <constraint firstAttribute="centerY" secondItem="Xgx-k4-BIA" secondAttribute="centerY" constant="0.5" id="tcp-Kj-ou8"/>
+                            <constraint firstAttribute="centerX" secondItem="7me-ds-giI" secondAttribute="centerX" id="voA-VZ-aA5"/>
+                            <constraint firstItem="0NY-oo-yeu" firstAttribute="baseline" secondItem="7me-ds-giI" secondAttribute="baseline" id="wPS-D0-nil"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 1" id="T2d-xj-Ilb"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <connections>
+                        <outlet property="nextLevelButton" destination="5zO-Nx-2x2" id="Nu2-2f-Vce"/>
+                        <outlet property="puzzleGameGridView" destination="Xgx-k4-BIA" id="AOK-k6-40f"/>
+                        <outletCollection property="gridPatternButtons" destination="0NY-oo-yeu" id="0rM-0f-bvG"/>
+                        <outletCollection property="gridPatternButtons" destination="7me-ds-giI" id="hfV-7z-dcT"/>
+                        <outletCollection property="gridPatternButtons" destination="Mtp-1d-3Io" id="2ec-Eo-HCX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="z6v-vl-ZjN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="995" y="-409"/>
+        </scene>
+        <!--Puzzle-->
+        <scene sceneID="eFw-zl-AV5">
+            <objects>
+                <tabBarController title="Puzzle" definesPresentationContext="YES" id="SjM-wI-kN1" sceneMemberID="viewController">
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="n5C-kh-IRf">
+                        <rect key="frame" x="129" y="330" width="163" height="49"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="VJD-xU-73a" kind="relationship" relationship="viewControllers" id="hzG-KE-eAf"/>
+                        <segue destination="7ip-Dy-7eK" kind="relationship" relationship="viewControllers" id="Ttt-P5-jhW"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6ME-Zj-nQd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-481" y="280"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="3sT-Bq-gpH">
+            <objects>
+                <viewController id="7ip-Dy-7eK" customClass="TimeLineCanvasViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="zOE-01-5wf"/>
+                        <viewControllerLayoutGuide type="bottom" id="6x5-To-uOl"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="OkG-14-LDX">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lie-zs-I3m">
+                                <rect key="frame" x="12" y="10" width="43" height="50"/>
+                                <state key="normal" image="Graphic_PhoneShake.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="helpShakeButtonPressed" destination="7ip-Dy-7eK" eventType="touchUpInside" id="Px5-pm-ZGc"/>
+                                </connections>
+                            </button>
+                            <imageView opaque="NO" userInteractionEnabled="NO" alpha="0.19999999999999968" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fb_profile" translatesAutoresizingMaskIntoConstraints="NO" id="kNZ-i7-5jy">
+                                <rect key="frame" x="76" y="51" width="600" height="600"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="wpL-RK-NpB"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wjc-Ee-6eF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1334" y="626"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Graphic_PhoneShake.png" width="85" height="100"/>
+        <image name="fb_profile" width="720" height="720"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>

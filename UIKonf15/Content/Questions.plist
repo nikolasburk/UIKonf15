@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>answer</key>
+		<string>Munich</string>
+		<key>question</key>
+		<string>Where did the first generation of the Burda Bootcamp take place in which I participated in September/October 2014?</string>
+		<key>coordinates</key>
+		<dict>
+			<key>longitude</key>
+			<string>11,5667</string>
+			<key>latitude</key>
+			<string>48,1333</string>
+		</dict>
+		<key>type</key>
+		<string>L</string>
+		<key>category</key>
+		<string>Professional</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Education</string>
+		<key>type</key>
+		<string>MC</string>
+		<key>question</key>
+		<string>In which year did I graduate from high school?</string>
+		<key>answer</key>
+		<string>2008</string>
+		<key>options</key>
+		<array>
+			<string>2006</string>
+			<string>2007</string>
+			<string>2005</string>
+		</array>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Personal</string>
+		<key>type</key>
+		<string>L</string>
+		<key>question</key>
+		<string>In which city was I born?</string>
+		<key>answer</key>
+		<string>Hamburg</string>
+		<key>coordinates</key>
+		<dict>
+			<key>latitude</key>
+			<real>53.5653</real>
+			<key>longitude</key>
+			<real>10.0014</real>
+		</dict>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Education</string>
+		<key>type</key>
+		<string>L</string>
+		<key>question</key>
+		<string>In which city did I spend one semester abroad during my Bachelor studies?</string>
+		<key>answer</key>
+		<string>Seoul</string>
+		<key>coordinates</key>
+		<dict>
+			<key>latitude</key>
+			<real>37.5665</real>
+			<key>longitude</key>
+			<real>126.978</real>
+		</dict>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Education</string>
+		<key>type</key>
+		<string>L</string>
+		<key>question</key>
+		<string>In which city did I spend one semester abroad during my Master studies?</string>
+		<key>answer</key>
+		<string>Amsterdam</string>
+		<key>coordinates</key>
+		<dict>
+			<key>latitude</key>
+			<real>52.3731</real>
+			<key>longitude</key>
+			<real>4.8922</real>
+		</dict>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>iOS</string>
+		<key>type</key>
+		<string>MC</string>
+		<key>question</key>
+		<string>What was the very first app that I uploaded to the Apple App Store about?</string>
+		<key>options</key>
+		<array>
+			<string>An app to manage network cameras</string>
+			<string>Trick question: I never uploaded an app to the store</string>
+			<string>A meme generator</string>
+		</array>
+		<key>answer</key>
+		<string>A debt manager</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Personal</string>
+		<key>type</key>
+		<string>MC</string>
+		<key>question</key>
+		<string>Which one of these is my favorite iOS podcast?</string>
+		<key>options</key>
+		<array>
+			<string>Core Intuition</string>
+			<string>iPhreaks</string>
+			<string>iDeveloper Life</string>
+		</array>
+		<key>answer</key>
+		<string>NSBrief</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>iOS</string>
+		<key>type</key>
+		<string>MC</string>
+		<key>question</key>
+		<string>What was the most challenging feature I ever implemented in an iOS app?</string>
+		<key>options</key>
+		<array>
+			<string>A SQL-lite database</string>
+			<string>A core data database</string>
+			<string>A grid view with a drag and drop function</string>
+		</array>
+		<key>answer</key>
+		<string>A network sniffer to detect online cameras</string>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>What is the &apos;Specialization Track&apos; that I chose for my Master program?</string>
+		<key>category</key>
+		<string>Education</string>
+		<key>type</key>
+		<string>MC</string>
+		<key>options</key>
+		<array>
+			<string>Information Technology</string>
+			<string>Enterprise Software</string>
+			<string>Computer Science</string>
+		</array>
+		<key>answer</key>
+		<string>System Design &amp; Development</string>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>Which conference or congress did I attend in February 2014?</string>
+		<key>category</key>
+		<string>Professional</string>
+		<key>type</key>
+		<string>MC</string>
+		<key>options</key>
+		<array>
+			<string>NSConference @Leicester</string>
+			<string>UIKonf @Berlin</string>
+			<string>CocoaConf @Washington DC</string>
+		</array>
+		<key>answer</key>
+		<string>Mobile World Congress @Barcelona</string>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>Where was the Mobile World Congress that I attented 2014? </string>
+		<key>category</key>
+		<string>Professional</string>
+		<key>type</key>
+		<string>L</string>
+		<key>answer</key>
+		<string>Barcelona</string>
+		<key>coordinates</key>
+		<dict>
+			<key>latitude</key>
+			<real>41.3833</real>
+			<key>longitude</key>
+			<real>2.1833</real>
+		</dict>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Education</string>
+		<key>type</key>
+		<string>MC</string>
+		<key>question</key>
+		<string>At which company did I write my Bachelor thesis?</string>
+		<key>options</key>
+		<array>
+			<string>Cameramanager</string>
+			<string>IBM</string>
+			<string>Apple</string>
+		</array>
+		<key>answer</key>
+		<string>SAP</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Personal</string>
+		<key>type</key>
+		<string>L</string>
+		<key>question</key>
+		<string>In which city did I spend one year in high school and lived in a host family?</string>
+		<key>answer</key>
+		<string>Douai</string>
+		<key>coordinates</key>
+		<dict>
+			<key>latitude</key>
+			<real>50.3714</real>
+			<key>longitude</key>
+			<real>3.08</real>
+		</dict>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Professional</string>
+		<key>question</key>
+		<string>Which company acquired my former employer &apos;Cameramanager&apos; in summer 2013?</string>
+		<key>type</key>
+		<string>MC</string>
+		<key>options</key>
+		<array>
+			<string>SAP</string>
+			<string>IBM</string>
+			<string>Sony</string>
+		</array>
+		<key>answer</key>
+		<string>Panasonic</string>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>What was the name of the start-up that I was working on with friends in the last semester of my Bachelor studies?</string>
+		<key>category</key>
+		<string>iOS</string>
+		<key>type</key>
+		<string>MC</string>
+		<key>options</key>
+		<array>
+			<string>WhatsMapp</string>
+			<string>MapApp</string>
+			<string>MappMe</string>
+		</array>
+		<key>answer</key>
+		<string>LetsMapp</string>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>In what kind of organization did I work between my high school graduation and studies?</string>
+		<key>category</key>
+		<string>Personal</string>
+		<key>type</key>
+		<string>MC</string>
+		<key>options</key>
+		<array>
+			<string>A nursing home</string>
+			<string>A soccer club</string>
+			<string>A children&apos;s home</string>
+		</array>
+		<key>answer</key>
+		<string>A kindergarden</string>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>In which year was I born?</string>
+		<key>category</key>
+		<string>Personal</string>
+		<key>type</key>
+		<string>MC</string>
+		<key>options</key>
+		<array>
+			<string>1986</string>
+			<string>1988</string>
+			<string>1987</string>
+		</array>
+		<key>answer</key>
+		<string>1989</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Education</string>
+		<key>type</key>
+		<string>L</string>
+		<key>question</key>
+		<string>In which city is my home university?</string>
+		<key>answer</key>
+		<string>Mannheim</string>
+		<key>coordinates</key>
+		<dict>
+			<key>latitude</key>
+			<real>49.4889</real>
+			<key>longitude</key>
+			<real>8.469200000000001</real>
+		</dict>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>What kind of software did we have to implement for the group project of my Software Engineering class during the fourth semester of my Bachelor studies?</string>
+		<key>category</key>
+		<string>Education</string>
+		<key>type</key>
+		<string>MC</string>
+		<key>options</key>
+		<array>
+			<string>A chess game</string>
+			<string>A recipe book</string>
+			<string>A debt manager</string>
+		</array>
+		<key>answer</key>
+		<string>A bank depot management system</string>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>What kind of software did we build for the one-year team project of my Master program?</string>
+		<key>category</key>
+		<string>Education</string>
+		<key>type</key>
+		<string>MC</string>
+		<key>options</key>
+		<array>
+			<string>A depot management system</string>
+			<string>An iPhone app to manage network cameras</string>
+			<string>A debt manager</string>
+		</array>
+		<key>answer</key>
+		<string>An agent-based patient scheduling system</string>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>At which chair did I work as a student assistant during my Bachelor studies?</string>
+		<key>category</key>
+		<string>Education</string>
+		<key>type</key>
+		<string>MC</string>
+		<key>options</key>
+		<array>
+			<string>Chair of Enterprise Systems</string>
+			<string>Chair of Software Engineering</string>
+			<string>Chair of Information Systems</string>
+		</array>
+		<key>answer</key>
+		<string>Chair of Artificial Intelligence</string>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>What are the specs of the MacBook Pro Retina that I bought in March 2014?</string>
+		<key>category</key>
+		<string>Education</string>
+		<key>type</key>
+		<string>MC</string>
+		<key>options</key>
+		<array>
+			<string>250 GB Flash, Intel Core i7, 16 GB RAM</string>
+			<string>Trick question: I bought a MacBook Air</string>
+			<string>500 GB Flash, Intel Core i5, 16 GB RAM</string>
+		</array>
+		<key>answer</key>
+		<string>500 GB Flash, Intel Core i7, 16 GB RAM</string>
+	</dict>
+</array>
+</plist>
