@@ -270,7 +270,7 @@
 		<array>
 			<string>For the time of my studies in Amsterdam, I applied for a job as iOS developer at a few companies. After a Skype interview and one visit at their office in Amsterdam, I signed a working contract at Cameramanager. In August, when my classes at the Vrije Universeit Amsterdam (VU) hadn&apos;t yet started, I worked full-time. After that, I reduced my work time a bit depending on the current workload that I had for my classes at the VU.</string>
 			<string>Cameramanager offers camera surveillance with IP cameras that can be managed in the cloud. Just before I started working there, the company had been acquired by Panasonic. When I started the job, the company already had an iOS app in the App Store, but had just decided to build a completely new interface for it.</string>
-			<string>I was (and still am) the only iOS developer in the company, I looked at the code from the old app, was shocked and decided to start the new app from scratch. I tried to reuse as much code as possible from the old app, which finally came down to a few helper classes that I could integrate with the new UI. I managed to build and publish the first version of the (universal) app within about 2 and a half month and added many features since then.</string>
+			<string>I was the only iOS developer in the company, I looked at the code from the old app, was shocked and decided to start the new app from scratch. I tried to reuse as much code as possible from the old app, which finally came down to a few helper classes that I could integrate with the new UI. I managed to build and publish the first version of the (universal) app within about 2 and a half month and added many features since then.</string>
 		</array>
 	</dict>
 	<dict>
