@@ -552,7 +552,26 @@ Storage: 500 GB Flash</string>
         <string>So, I came up with the idea of a debt management application to keep track of borrowed or lent money. Having started with a tab bar controller, I switched to a menu slide view controller along the way. After its initial release in May last year, I unfortunately didn&apos;t have the time to build an update, maybe this will come soon.</string>
     </array>
 </dict>
-
+<dict>
+    <key>storyID</key>
+    <integer>26</integer>
+    <key>title</key>
+    <string>Spring semester 2015: Programming tutor</string>
+    <key>images</key>
+    <integer>1</integer>
+    <key>time</key>
+    <dict>
+        <key>year</key>
+        <integer>2015</integer>
+        <key>month</key>
+        <integer>2</integer>
+    </dict>
+    <key>paragraphs</key>
+    <array>
+        <string>In my last semester at the university, I got a job as a tutor for a programming class. The class's goal is to teach students advanced programming concepts in Java, such as writing a GUI, working with threads or accessing databases.</string>
+        <string>As a tutor, I am hosting a weekly tutorial session, where the students can ask questions about the lecture content and exercises. I am also responsible for grading the students' programming projects.</string>
+    </array>
+</dict>
 
 
 </array>
