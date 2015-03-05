@@ -310,8 +310,8 @@
 		</dict>
 		<key>paragraphs</key>
 		<array>
-            <string>I applied for a student scholarship for Apple's WWDC last year. My application consisted of a former version of this very app that you are playing right now, but its style was slightly different. It had less stories and didn't feature the 'click wheel' and the story 'preview' on the time line canvas yet.</string>
-			<string>I was so excited about this opportunity and despite the fact that I still had to pay for flight and accomodation by myself, I didn't hesitate one second to take this chance. And, as you can imagine, it was totally worth it. I had a fantastic time and met lots of fantastic people.</string>
+			<string>I applied for a student scholarship for Apple&apos;s WWDC last year. My application consisted of a former version of this very app that you are playing right now, but its style was slightly different. It had less stories and didn&apos;t feature the &apos;click wheel&apos; and the story &apos;preview&apos; on the time line canvas yet.</string>
+			<string>I was so excited about this opportunity and despite the fact that I still had to pay for flight and accomodation by myself, I didn&apos;t hesitate one second to take this chance. And, as you can imagine, it was totally worth it. I had a fantastic time and met lots of fantastic people.</string>
 			<string>This was actually my first time in San Francisco, so I took the chance and extended my stay for a 3-day trip to Palo Alto, where I made a bike tour to the Stanford university and the Google campus in Mountain View. If at all possible, I would like to go and work somewhere in the Bay Area after my graduation this summer.</string>
 		</array>
 	</dict>
@@ -424,7 +424,6 @@ Storage: 500 GB Flash</string>
 			<string>In Amsterdam, I am spending a lot of time on my bike, which for me is just the perfect occasion to be inspired by these amzing shows! Two of my favorite episodes of NSBRief are the one with Matt Thompson and the one with Mike Lee where they were talking about Mike&apos;s project &quot;appsterdam&quot;.&quot;</string>
 		</array>
 	</dict>
-
 	<dict>
 		<key>storyID</key>
 		<integer>20</integer>
@@ -446,8 +445,7 @@ Storage: 500 GB Flash</string>
 			<string>With this tool, we won the first price and each team member received a ticket to the DLD conference, which took place in mid January in Munich. the DLD is an invitation-only conference and a ticket is valued 2750,-. If you are curios about the Open Data Hackday, checkout the blog post tht I wrote about my epxerience there.</string>
 		</array>
 	</dict>
-
-		<dict>
+	<dict>
 		<key>storyID</key>
 		<integer>21</integer>
 		<key>title</key>
@@ -467,112 +465,106 @@ Storage: 500 GB Flash</string>
 			<string>My personal highlight was the talk of Travis Kalanick, CEO of Uber, whose talk was quite controversial, yet highly interesting. Other talks were held by Oliver Samwer, Guenter Oettinger or Hubert Burda himself.</string>
 		</array>
 	</dict>
-
-<dict>
-    <key>storyID</key>
-    <integer>22</integer>
-    <key>title</key>
-    <string>UIKonf 2014 @Berlin</string>
-    <key>images</key>
-    <integer>2</integer>
-    <key>time</key>
-    <dict>
-        <key>year</key>
-        <integer>2014</integer>
-        <key>month</key>
-        <integer>5</integer>
-    </dict>
-    <key>paragraphs</key>
-    <array>
-        <string>Last year in May, I attended UIKonf. This was actually the first real conference that I have been to and I had a great time. I love connecting with other developers, especially iOS developer of course. Last year, I was able to get a discount ticket as a student. If I receive a student scholarship this year, I will definetely attend this one again!</string>
-        <string>My favourite part during the conference was the opening talk from Stephen Poletto who works at Dropbox and who was talking about their approach to cross-plattform app development using C++. This was very impressive!</string>
-    </array>
-</dict>
-
-<dict>
-    <key>storyID</key>
-    <integer>23</integer>
-    <key>title</key>
-    <string>mdevcon 2014 @Amsterdam</string>
-    <key>images</key>
-    <integer>2</integer>
-    <key>time</key>
-    <dict>
-        <key>year</key>
-        <integer>2015</integer>
-        <key>month</key>
-        <integer>3</integer>
-    </dict>
-    <key>paragraphs</key>
-    <array>
-        <string>I received a student scholarship for the Mobile Developers Conference (mdevcon) in Amsterdam. It will take place just next week and I am really happy about this occasion to get back to Amsterdam! </string>
-        <string>I also registered for the 'toon hackathon', which takes place on the weekend right after the conference. The goal is to build 'smart home' products making use of the toon thermostats.</string>
-    </array>
-</dict>
-
-<dict>
-    <key>storyID</key>
-    <integer>24</integer>
-    <key>title</key>
-    <string>Master thesis: Digital Watermarks in Video Files</string>
-    <key>images</key>
-    <integer>1</integer>
-    <key>time</key>
-    <dict>
-        <key>year</key>
-        <integer>2015</integer>
-        <key>month</key>
-        <integer>7</integer>
-    </dict>
-    <key>paragraphs</key>
-    <array>
-        <string>I just started writing my Master thesis. The topic is 'Digital Watermarks in Video Files'. I am very excited about the topic since I will be programming in C++ for it, working mainly with OpenCV.</string>
-        <string>If all goes well, I will be done by the end of July and finally will be able to look out for a full-time job!</string>
-    </array>
-</dict>
-
-<dict>
-    <key>storyID</key>
-    <integer>25</integer>
-    <key>title</key>
-    <string>My first App Store submission: My Debts</string>
-    <key>images</key>
-    <integer>3</integer>
-    <key>time</key>
-    <dict>
-        <key>year</key>
-        <integer>2013</integer>
-        <key>month</key>
-        <integer>5</integer>
-    </dict>
-    <key>paragraphs</key>
-    <array>
-        <string>After having worked as a working student for SAP for more than half a year and having internally published one iOS app at SAP and worked on a few more iOS projects, I decided that it&apos;s time for me to start working on my first App Store submission. </string>
-        <string>My goal was to build an app that would use CoreData for local storage, as I had never had hands-on experience with CoreData until then but wanted to know more about how it works. Building an own app in my opinion was the best occasion to get going on CoreData.</string>
-        <string>So, I came up with the idea of a debt management application to keep track of borrowed or lent money. Having started with a tab bar controller, I switched to a menu slide view controller along the way. After its initial release in May last year, I unfortunately didn&apos;t have the time to build an update, maybe this will come soon.</string>
-    </array>
-</dict>
-<dict>
-    <key>storyID</key>
-    <integer>26</integer>
-    <key>title</key>
-    <string>Spring semester 2015: Programming tutor</string>
-    <key>images</key>
-    <integer>1</integer>
-    <key>time</key>
-    <dict>
-        <key>year</key>
-        <integer>2015</integer>
-        <key>month</key>
-        <integer>2</integer>
-    </dict>
-    <key>paragraphs</key>
-    <array>
-        <string>In my last semester at the university, I got a job as a tutor for a programming class. The class's goal is to teach students advanced programming concepts in Java, such as writing a GUI, working with threads or accessing databases.</string>
-        <string>As a tutor, I am hosting a weekly tutorial session, where the students can ask questions about the lecture content and exercises. I am also responsible for grading the students' programming projects.</string>
-    </array>
-</dict>
-
-
+	<dict>
+		<key>storyID</key>
+		<integer>22</integer>
+		<key>title</key>
+		<string>UIKonf 2014 @Berlin</string>
+		<key>images</key>
+		<integer>2</integer>
+		<key>time</key>
+		<dict>
+			<key>year</key>
+			<integer>2014</integer>
+			<key>month</key>
+			<integer>5</integer>
+		</dict>
+		<key>paragraphs</key>
+		<array>
+			<string>Last year in May, I attended UIKonf. This was actually the first real conference that I have been to and I had a great time. I love connecting with other developers, especially iOS developer of course. Last year, I was able to get a discount ticket as a student. If I receive a student scholarship this year, I will definetely attend this one again!</string>
+			<string>My favourite part during the conference was the opening talk from Stephen Poletto who works at Dropbox and who was talking about their approach to cross-plattform app development using C++. This was very impressive!</string>
+		</array>
+	</dict>
+	<dict>
+		<key>storyID</key>
+		<integer>23</integer>
+		<key>title</key>
+		<string>mdevcon 2014 @Amsterdam</string>
+		<key>images</key>
+		<integer>2</integer>
+		<key>time</key>
+		<dict>
+			<key>year</key>
+			<integer>2015</integer>
+			<key>month</key>
+			<integer>3</integer>
+		</dict>
+		<key>paragraphs</key>
+		<array>
+			<string>I received a student scholarship for the Mobile Developers Conference (mdevcon) in Amsterdam. It will take place just next week and I am really happy about this occasion to get back to Amsterdam! </string>
+			<string>I also registered for the &apos;toon hackathon&apos;, which takes place on the weekend right after the conference. The goal is to build &apos;smart home&apos; products making use of the toon thermostats.</string>
+		</array>
+	</dict>
+	<dict>
+		<key>storyID</key>
+		<integer>24</integer>
+		<key>title</key>
+		<string>Master thesis: Digital Watermarks in Video Files</string>
+		<key>images</key>
+		<integer>1</integer>
+		<key>time</key>
+		<dict>
+			<key>year</key>
+			<integer>2015</integer>
+			<key>month</key>
+			<integer>7</integer>
+		</dict>
+		<key>paragraphs</key>
+		<array>
+			<string>I just started writing my Master thesis. The topic is &apos;Digital Watermarks in Video Files&apos;. I am very excited about the topic since I will be programming in C++ for it, working mainly with OpenCV.</string>
+			<string>If all goes well, I will be done by the end of July and finally will be able to look out for a full-time job!</string>
+		</array>
+	</dict>
+	<dict>
+		<key>storyID</key>
+		<integer>25</integer>
+		<key>title</key>
+		<string>My first App Store submission: My Debts</string>
+		<key>images</key>
+		<integer>3</integer>
+		<key>time</key>
+		<dict>
+			<key>year</key>
+			<integer>2013</integer>
+			<key>month</key>
+			<integer>5</integer>
+		</dict>
+		<key>paragraphs</key>
+		<array>
+			<string>After having worked as a working student for SAP for more than half a year and having internally published one iOS app at SAP and worked on a few more iOS projects, I decided that it&apos;s time for me to start working on my first App Store submission. </string>
+			<string>My goal was to build an app that would use CoreData for local storage, as I had never had hands-on experience with CoreData until then but wanted to know more about how it works. Building an own app in my opinion was the best occasion to get going on CoreData.</string>
+			<string>So, I came up with the idea of a debt management application to keep track of borrowed or lent money. Having started with a tab bar controller, I switched to a menu slide view controller along the way. After its initial release in May last year, I unfortunately didn&apos;t have the time to build an update, maybe this will come soon.</string>
+		</array>
+	</dict>
+	<dict>
+		<key>storyID</key>
+		<integer>26</integer>
+		<key>title</key>
+		<string>Spring semester 2015: Programming tutor</string>
+		<key>images</key>
+		<integer>2</integer>
+		<key>time</key>
+		<dict>
+			<key>year</key>
+			<integer>2015</integer>
+			<key>month</key>
+			<integer>2</integer>
+		</dict>
+		<key>paragraphs</key>
+		<array>
+			<string>In my last semester at the university, I got a job as a tutor for a programming class. The class&apos;s goal is to teach students advanced programming concepts in Java, such as writing a GUI, working with threads or accessing databases.</string>
+			<string>As a tutor, I am hosting a weekly tutorial session, where the students can ask questions about the lecture content and exercises. I am also responsible for grading the students&apos; programming projects.</string>
+		</array>
+	</dict>
 </array>
 </plist>
